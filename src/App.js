@@ -22,7 +22,7 @@ function PublicRoute({ children }) {
 export default function App() {
   return (
     <AuthProvider>
-      <BrowserRouter>
+      <BrowserRouter basename="/study-tracker">
         <Toaster position="top-right" toastOptions={{
           style: { background: "#1e293b", color: "#f1f5f9", border: "1px solid #334155" }
         }} />
